@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B50FBB832003FC6100CF0B80 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50FBB822003FC6100CF0B80 /* AboutMeViewController.swift */; };
 		B5EAAC93200352830045A8F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAAC92200352830045A8F9 /* AppDelegate.swift */; };
 		B5EAAC95200352830045A8F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAAC94200352830045A8F9 /* ViewController.swift */; };
 		B5EAAC98200352830045A8F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5EAAC96200352830045A8F9 /* Main.storyboard */; };
 		B5EAAC9A200352830045A8F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EAAC99200352830045A8F9 /* Assets.xcassets */; };
 		B5EAAC9D200352830045A8F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5EAAC9B200352830045A8F9 /* LaunchScreen.storyboard */; };
+		B5EAACA520038E060045A8F9 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAACA420038E060045A8F9 /* Pokemon.swift */; };
+		B5EAACA7200398F50045A8F9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAACA6200398F50045A8F9 /* DetailViewController.swift */; };
+		B5EAACA92003CF470045A8F9 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EAACA82003CF470045A8F9 /* FavoritesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B50FBB822003FC6100CF0B80 /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
 		B5EAAC8F200352830045A8F9 /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5EAAC92200352830045A8F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5EAAC94200352830045A8F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		B5EAAC99200352830045A8F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5EAAC9C200352830045A8F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5EAAC9E200352830045A8F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5EAACA420038E060045A8F9 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		B5EAACA6200398F50045A8F9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B5EAACA82003CF470045A8F9 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +64,13 @@
 			children = (
 				B5EAAC92200352830045A8F9 /* AppDelegate.swift */,
 				B5EAAC94200352830045A8F9 /* ViewController.swift */,
+				B5EAACA420038E060045A8F9 /* Pokemon.swift */,
+				B5EAACA6200398F50045A8F9 /* DetailViewController.swift */,
+				B50FBB822003FC6100CF0B80 /* AboutMeViewController.swift */,
+				B5EAACA82003CF470045A8F9 /* FavoritesViewController.swift */,
+				B5EAAC9B200352830045A8F9 /* LaunchScreen.storyboard */,
 				B5EAAC96200352830045A8F9 /* Main.storyboard */,
 				B5EAAC99200352830045A8F9 /* Assets.xcassets */,
-				B5EAAC9B200352830045A8F9 /* LaunchScreen.storyboard */,
 				B5EAAC9E200352830045A8F9 /* Info.plist */,
 			);
 			path = Pokedex;
@@ -138,6 +150,10 @@
 			files = (
 				B5EAAC95200352830045A8F9 /* ViewController.swift in Sources */,
 				B5EAAC93200352830045A8F9 /* AppDelegate.swift in Sources */,
+				B5EAACA520038E060045A8F9 /* Pokemon.swift in Sources */,
+				B5EAACA92003CF470045A8F9 /* FavoritesViewController.swift in Sources */,
+				B50FBB832003FC6100CF0B80 /* AboutMeViewController.swift in Sources */,
+				B5EAACA7200398F50045A8F9 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
